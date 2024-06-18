@@ -38,6 +38,9 @@ async function getPgVersion() {
 
 getPgVersion();
 
+// Configurar o middleware para servir arquivos estáticos
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Rota para servir o arquivo HTML
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'Workshop.html'));
