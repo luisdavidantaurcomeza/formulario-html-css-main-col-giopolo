@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/convite_polo-workshop.jpg);
+    background-image: url(/img/convite_polo-workshop.jpg);
 }
 .box{
     color: white;
